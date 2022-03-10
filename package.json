@@ -1,0 +1,26 @@
+{
+  "name": "weather_app_hbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrdynamic-soni/express_node_weather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrdynamic-soni/express_node_weather/issues"
+  },
+  "homepage": "https://github.com/Mrdynamic-soni/express_node_weather#readme"
+}
