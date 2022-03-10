@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerlinks}}
+</head>
+<body>
+
+  <!-- Navbar -->
+{{>navbar}}
+  <!-- Navbar -->
+
+  <!--  main body-->
+ <div class="container-fluid main_header">
+     <div class="row">
+         <div class="col-md-10 col-12 mx-auto">
+             <div class="row align-middle">
+                 <div class ="main_content">
+                     <form class="temp_city">
+                         <input type="text" id="citynamed" placeholder="Enter your city name" autocomplete="off">
+                         <input type="submit" value="search" id="submitButton">
+                     </form>
+                 </div>
+
+                 <div class="tempinformation">
+                     <div class="top-layer">
+                         <p id="day"> Wednesday</p>
+                         <p id="today_date">13 Mar</p>
+                     </div>
+                     <div>
+                         <div class="main_layer">
+                            <p id="city_name">Get Your output here</p>
+                         </div>
+                         <div class="middle_layer_data">
+                           <p id="temp"><span>0</span> <sup>o</sup>C</p>
+                           <p id="temp_status"><i class="fas fa-cloud" aria-hidden="true"></i></p>
+                         </div>
+                     </div>
+
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+<!-- footer code-->
+{{>footer}}
+
+<script scr="js/main.js"></script>
+</body>
+</html>

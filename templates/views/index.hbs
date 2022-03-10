@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>headerlinks}}
+   </head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg main_menu ">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <!-- <i class="fas fa-bars"></i>
+         -->
+         <span class="navbar-toggler-icon"></span>
+
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://www.pngall.com/wp-content/uploads/11/Weather-No-Background.png"
+            height="35"
+            alt="Logo"
+            loading="lazy"/>
+            
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/weather">Weather</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+        
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            class="d-flex align-items-center ml-auto"
+            href="https://www.linkedin.com/in/saurabh-soni-48a567166/"
+            id="Avatar"
+            role="button"
+          >
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQGAby-Aply7oA/profile-displayphoto-shrink_400_400/0/1642770206919?e=1652313600&v=beta&t=KEl6FyXFMCj9zszSJGhMl7rLVCRFOuXPh3qW-5lZOms"
+              class="rounded-circle"
+              height="30"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <!--  main body-->
+ <div class="container-fluid main_header">
+     <div class="row">
+         <div class="col-md-10 col-12 mx-auto">
+             <div class="row align-middle">
+                 <!--LEFT BODY-->
+                 <div class="col-md-6 col-12 main_header_left head_left ">
+                     <h3>Welcome to Dynamic weather app</h3>
+                     <h1>Get the latest <span class = "text-primary">Weather</span> report of your city</h1>
+                     <a href="/weather"><button class = "rounded-pill bg-success text-white btn">Check Now</button></a>
+                 </div>
+                   <!--RIGHT BODY-->
+                 <div class="col-md-6 col-12 main_header_right rounded ">
+                    <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+                        <div class="carousel-inner rounded ">
+                          <div class="carousel-item active rounded">
+                            <img class="img img-rounded" src="https://img.freepik.com/free-vector/realistic-weather-widget_1284-4092.jpg?t=st=1646820596~exp=1646821196~hmac=973b0cf31fa200e2ce618ce371fbb96afd9b8bf8c9c487d471eebc7d122d5bf3&w=740" class=" w-100" alt="Wild Landscape"/>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img img-rounded" src="https://img.freepik.com/free-vector/tv-weather-news-reporter_1284-4917.jpg?w=740" class=" w-100" alt="Camera"/>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img img-rounded" src="https://img.freepik.com/free-vector/meteorology-abstract-concept-vector-illustration-met-station-meteorology-program-university-degree-weather-prediction-method-measuring-instruments-atmosphere-study-abstract-metaphor_335657-1980.jpg?w=740" class=" w-100" alt="Exotic Fruits"/>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+             </div>
+
+         </div>
+
+     </div>
+
+ </div>
+<!-- footer code-->
+{{>footer}}
+</body>
+</html>
