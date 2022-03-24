@@ -5,6 +5,8 @@
 
 html {
     font-size:100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body{
@@ -12,6 +14,7 @@ body{
     display:flex;
     flex-direction: column;
     margin-top: auto;
+    margin-bottom: 60px;
 }
 .row{
     margin:0;
@@ -63,10 +66,10 @@ body{
     box-shadow: 0 8px 6px -6px #000;
 }
 
-.navbar-fixed-bottom{
+/* .navbar-fixed-bottom{
     position: fixed;
     bottom: 0px;
-}
+} */
 
 .tempinformation{
     width: 20rem;
@@ -141,4 +144,11 @@ body{
 sup{
     font-size: 1rem;
     margin-top: -1rem;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+  
 }
